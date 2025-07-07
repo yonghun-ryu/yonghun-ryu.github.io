@@ -7,7 +7,7 @@
     <meta name="author" content="Yonghun Ryu" />
     <title>Yonghun Ryu</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    
+
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
@@ -34,9 +34,8 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
         </ul>
       </div>
     </nav>
@@ -47,67 +46,62 @@
       <section class="resume-section" id="about">
         <div class="resume-section-content">
           <h1 class="mb-0">Yonghun <span class="text-primary">Ryu</span></h1>
-          <div class="subheading mb-3">
-            M.S. Student @ Korea University<br />
-            B.S. in Electrical and Electronic Engineering, Korea Univ (2024)
+          <div class="subheading mb-4">
+            M.S. Student @ Korea University
           </div>
-          <p class="lead mb-5">
+          <p class="lead mb-4">
             I’m currently joining the <strong>ComSys Lab</strong>, where I aim to contribute to research in next-generation system architectures and hardware acceleration.
           </p>
+          <div class="social-icons">
+            <a class="social-icon" href="mailto:yonghun0626@korea.ac.kr"><i class="fas fa-envelope"></i></a>
+            <a class="social-icon" href="https://comsys.korea.ac.kr"><i class="fas fa-university"></i></a>
+            <a class="social-icon" href="https://github.com/yonghun-ryu"><i class="fab fa-github"></i></a>
+          </div>
         </div>
       </section>
 
       <hr class="m-0" />
 
-      <!-- Research -->
-      <section class="resume-section" id="research">
+      <!-- Education -->
+      <section class="resume-section" id="education">
         <div class="resume-section-content">
-          <h2 class="mb-5">Current Research Interests</h2>
-          <ul>
-            <li>
-              <strong>Processing-In-Memory (PIM):</strong>
-              Exploring memory-centric computing architectures to reduce data movement bottlenecks and improve system performance through near-data processing.
-            </li>
-            <li>
-              <strong>GPU Architecture & GPGPU Acceleration:</strong>
-              Currently working on porting the <strong>Vortex GPGPU architecture</strong> to an <strong>AMD Alveo FPGA board</strong>, focusing on system-level integration, architectural customization, and runtime performance optimization.
-            </li>
+          <h2 class="mb-5">Education</h2>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Korea University</h3>
+              <div class="subheading mb-1">M.S. in Electrical and Electronic Engineering</div>
+              <div>Expected: Sep 2025 ~</div>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Korea University</h3>
+              <div class="subheading mb-1">B.S. in Electrical and Electronic Engineering</div>
+              <div>Graduated: Feb 2024</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <!-- Skills -->
+      <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Skills</h2>
+          <div class="subheading mb-3">Programming Languages & Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fas fa-code"></i> Verilog</li>
+            <li class="list-inline-item"><i class="fas fa-cogs"></i> C++</li>
+            <li class="list-inline-item"><i class="fas fa-tools"></i> Synopsys Tools</li>
+            <li class="list-inline-item"><i class="fas fa-microchip"></i> FPGA (Vivado, Quartus)</li>
           </ul>
-
-          <h3 class="mt-5 mb-4">Past Academic Experience</h3>
-          <ul>
-            <li>
-              <strong>Digital Integrated Circuit Design:</strong>
-              Designed and optimized Verilog-based digital modules, focusing on area, timing, and power. Experience includes FIR filter synthesis, JPEG compression logic, and FPGA-based digital system projects.
-            </li>
-            <li>
-              <strong>System-on-Chip (SoC) Design and Verification:</strong>
-              Studied SoC integration flows, IP-based design, and simulation/verification techniques through coursework and practical training programs (e.g., IDEC).
-            </li>
+          <div class="subheading mb-3">Focus Areas</div>
+          <ul class="fa-ul mb-0">
+            <li><span class="fa-li"><i class="fas fa-check"></i></span> Digital Circuit Design & Verification</li>
+            <li><span class="fa-li"><i class="fas fa-check"></i></span> SoC Design Flow & ASIC Flow</li>
+            <li><span class="fa-li"><i class="fas fa-check"></i></span> Hardware Acceleration for AI</li>
           </ul>
-        </div>
-      </section>
-
-      <hr class="m-0" />
-
-      <!-- Experience -->
-      <section class="resume-section" id="experience">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Experience</h2>
-          <p class="lead">More details coming soon.</p>
-        </div>
-      </section>
-
-      <hr class="m-0" />
-
-      <!-- Contact -->
-      <section class="resume-section" id="contact">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Contact</h2>
-          <p>
-            Feel free to reach out if you're interested in similar topics or would like to connect!<br />
-            Email: <a href="mailto:yonghun0626@korea.ac.kr">yonghun0626@korea.ac.kr</a>
-          </p>
         </div>
       </section>
     </div>
